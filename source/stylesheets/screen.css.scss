@@ -544,24 +544,6 @@ html, body {
       text-decoration: none;
       border-bottom: dashed 1px #ccc;
     }
-
-    &.plaintext {
-      background-color: rgba(0,0,0,0.05);
-      border-radius: 3px;
-      color: $main-text;
-      float:none;
-      padding: 1em;
-      margin: 2em;
-      text-shadow: none;
-      width: 40%;
-      //@extend %break-words;
-      //@extend %code-font;
-    }
-  }
-
-  pre>code {
-    background-color: transparent;
-    padding: 0;
   }
 
   pre {
